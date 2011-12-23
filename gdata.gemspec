@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{gdata_19}
-  s.version = "1.1.3"
+  s.name = %q{gdata}
+  s.version = "1.1.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Fisher"]
@@ -227,7 +227,7 @@ Gem::Specification.new do |s|
     "doc/fr_method_index.html",
     "doc/index.html",
     "doc/rdoc-style.css",
-    "gdata_19.gemspec",
+    "gdata.gemspec",
     "lib/gdata.rb",
     "lib/gdata/auth.rb",
     "lib/gdata/auth/authsub.rb",
@@ -254,8 +254,6 @@ Gem::Specification.new do |s|
     "lib/gdata/http/mime_body.rb",
     "lib/gdata/http/request.rb",
     "lib/gdata/http/response.rb",
-    "pkg/gdata_19-1.1.2.gem",
-    "pkg/gdata_19-1.1.3.gem",
     "test/tc_gdata_auth_authsub.rb",
     "test/tc_gdata_auth_clientlogin.rb",
     "test/tc_gdata_client_base.rb",
@@ -272,7 +270,7 @@ Gem::Specification.new do |s|
     "test/ts_gdata_client.rb",
     "test/ts_gdata_http.rb"
   ]
-  s.homepage = %q{http://github.com/tokumine/GData}
+  s.homepage = %q{http://github.com/spraints/GData}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Google Data APIs Ruby Utility Library}

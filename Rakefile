@@ -51,7 +51,7 @@ spec = Gem::Specification.new do |s|
   s.summary = "Google Data APIs Ruby Utility Library"
   s.rubyforge_project = 'gdata'
   s.name = 'gdata'
-  s.version = '1.1.1'
+  s.version = '1.1.2.1'
   s.requirements << 'none'
   s.require_path = 'lib'
   s.test_files = FileList['test/ts_gdata.rb']
@@ -75,7 +75,7 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "gdata_19"
+    gemspec.name = "gdata"
     gemspec.summary = "Google Data APIs Ruby Utility Library"
     gemspec.description = "This gem provides a set of wrappers designed to make it easy to work with 
     the Google Data APIs with 1.9 compat"
